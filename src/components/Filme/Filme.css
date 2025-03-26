@@ -1,0 +1,160 @@
+.filme__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 30px 8px auto;
+  margin: 0 auto;
+  /* background-color: burlywood; */
+}
+
+.filme__container {
+  padding: 10px;
+}
+
+.filme__favorito-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(121, 119, 119);
+  margin: 20px auto;
+}
+
+.filme__title {
+  margin: 14px auto 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.filme__title-filme {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+.filme__poster {
+  width: 900px;
+  min-height: 183px;
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 8px 18px rgba(57, 57, 92, 0.99), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid #fff;
+}
+
+.filme__sinopse {
+  margin: 18px 10px;
+}
+
+.filme__info span {
+  display: flex;
+  width: 740px;
+  margin: 8px 10px;
+}
+
+.filme__avaliacao strong p {
+  margin: 10px 10px;
+}
+
+.filme__avaliacao-text {
+  margin: 10px 10px;
+}
+
+.filme__container-buttons {
+  padding: 10px;
+}
+
+.filme__button-save {
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: rgb(121, 119, 119);
+  margin: 9px 10px 0 0;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.6),
+    -1px -4px 4px rgba(255, 255, 255, 0.9);
+  border: 1px solid rgb(196, 195, 192);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.filme__button-save:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+.filme__button-save:active {
+  box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.5),
+    inset -1px -4px 4px rgba(255, 255, 255, 0.9);
+}
+
+.filme__button-trailer {
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: rgb(121, 119, 119);
+  margin: 9px 10px 50px 0;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.6),
+    -1px -4px 4px rgba(255, 255, 255, 0.9);
+  border: 1px solid rgb(196, 195, 192);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.filme__button-trailer a {
+  text-decoration: none;
+  color: rgb(121, 119, 119);
+}
+
+.filme__button-trailer a:active {
+  color: white !important;
+}
+
+.filme__button-trailer:hover {
+  background-color: brown;
+  color: white;
+}
+
+.filme__button-trailer:active {
+  box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.5),
+    inset -1px -4px 4px rgba(255, 255, 255, 0.9);
+  color: white; /* Adiciona a cor branca ao botão ao ser clicado */
+}
+
+.filme__button-trailer:active a {
+  color: white;
+}
+
+/* .filme__container-buttons:hover {
+  background-color: brown;
+  color: #fff;
+} */
+
+/* .filme__container-buttons a {
+  text-decoration: none;
+  background-color: brown;
+  color: #fff;
+  transition: all 0.5s;
+} */
+
+/* .filme__container-buttons button:active {
+  box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.5),
+    inset -1px -4px 4px rgba(255, 255, 255, 0.9);
+} */
+
+/* .filme__container-buttons a:hover {
+  background-color: brown;
+  color: #fff;
+} */

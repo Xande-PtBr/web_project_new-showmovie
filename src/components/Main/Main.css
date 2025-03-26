@@ -1,0 +1,98 @@
+.container {
+  margin: 0 auto 0;
+}
+
+.container__lista-filmes {
+  max-width: 1044px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px 30px;
+  margin: 50px auto 80px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.container__lista-filmes article {
+  max-width: 500px;
+  box-shadow: 0 8px 18px rgba(57, 57, 92, 0.99), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid #fff;
+}
+
+.container__titulo-filme {
+  width: 490px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: black;
+}
+
+.container__title-and-details {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container__image-filme {
+  display: block;
+  object-fit: cover;
+  width: 500px;
+  max-width: 100%;
+  max-height: 340px;
+}
+
+.container__botao-trailler {
+  display: flex;
+
+  height: 50px;
+  text-align: end;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 24px;
+  background-color: black;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  /*  box-shadow: 0 8px 6px rgba(57, 57, 92, 0.61), 0 1px 3px rgba(0, 0, 0, 0.08); */
+}
+
+.container__details {
+  width: 10px;
+  height: 30px;
+  justify-content: end;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.container__details-x {
+  display: flex;
+  justify-content: end;
+}
+
+.container__btn-details {
+  width: 10px;
+  height: 30px;
+  justify-content: start;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.container__details-y {
+  display: flex;
+  justify-content: start;
+  width: 240px;
+  height: 30px;
+}
