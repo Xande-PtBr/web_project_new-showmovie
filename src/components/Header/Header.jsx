@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "../Header/Header.css";
 import Nav from "../Nav/Nav";
 
 function Header() {
   return (
     <header>
-      <div className="header" img src="../images/pipoca.jpeg">
+      <div className="header">
+        {" "}
+        <Nav />
         <Link className="header__logo" to="/">
           Show movies
         </Link>
-        <Nav />
       </div>
     </header>
   );

@@ -4,7 +4,6 @@
   max-width: 800px;
   padding: 30px 8px auto;
   margin: 0 auto;
-  /* background-color: burlywood; */
 }
 
 .filme__container {
@@ -54,7 +53,6 @@
 
 .filme__info span {
   display: flex;
-  width: 740px;
   margin: 8px 10px;
 }
 
@@ -136,25 +134,3 @@
 .filme__button-trailer:active a {
   color: white;
 }
-
-/* .filme__container-buttons:hover {
-  background-color: brown;
-  color: #fff;
-} */
-
-/* .filme__container-buttons a {
-  text-decoration: none;
-  background-color: brown;
-  color: #fff;
-  transition: all 0.5s;
-} */
-
-/* .filme__container-buttons button:active {
-  box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.5),
-    inset -1px -4px 4px rgba(255, 255, 255, 0.9);
-} */
-
-/* .filme__container-buttons a:hover {
-  background-color: brown;
-  color: #fff;
-} */
