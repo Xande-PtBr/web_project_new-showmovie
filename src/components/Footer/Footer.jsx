@@ -3,12 +3,10 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
-      <div className="footer" img src="../images/pipoca.jpeg">
-        <Link className="footer__github-image" to="/">
-          © 2025 Alexandre Silva - Desenvolvedor full stack
-        </Link>
-      </div>
+    <footer className="footer">
+      <p className="footer__copyright" to="/">
+        © 2025 Alexandre Silva Desenvolvedor full stack
+      </p>
     </footer>
   );
 }

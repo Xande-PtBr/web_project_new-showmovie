@@ -1,8 +1,26 @@
-.footer a {
+.footer {
   display: flex;
+  font-size: 16px;
+}
+
+.footer__copyright {
   justify-content: center;
-  text-decoration: none;
-  align-items: center;
-  color: black;
-  padding: 30px;
+  align-items: end;
+  margin: 200px auto 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    min-width: 200px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .footer__copyright {
+    margin: 10px 30px;
+
+    text-align: center;
+  }
 }

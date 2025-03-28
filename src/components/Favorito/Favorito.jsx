@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import trashIcon from "../../images/Trash.png";
-import Footer from "../Footer/Footer";
+import "./Favorito.css";
 
 function Favorito() {
   const [filmes, setFilmes] = useState([]);
@@ -53,7 +53,6 @@ function Favorito() {
           })}
         </ul>
       </div>
-      <Footer />
     </div>
   );
 }

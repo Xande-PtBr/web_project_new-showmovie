@@ -17,6 +17,7 @@ O **Show Movie** é um aplicativo web que consome uma API de filmes para exibir 
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **vite**
 - **HTML**
 - **CSS**
 - **React**
@@ -33,7 +34,7 @@ O **React-Toastify** foi utilizado para exibir mensagens de feedback ao usuário
 
 1. **Clone o repositório**
    ```bash
-   git clone: git@github.com:Xande-PtBr/web_project_showmovie.git
+   git@github.com:Xande-PtBr/web_project_new-showmovie.git
    ```
 
 # 📷 Demonstração
