@@ -2,14 +2,25 @@
   display: flex;
   max-width: 960px;
   justify-content: center;
+  position: relative;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 20px auto;
+}
+
+.filme__favorito span {
+  position: absolute;
+  max-width: 960px;
+  margin: 20px auto;
+  font-size: 20px;
+  top: 200px;
+  left: 355px;
 }
 
 .filme__container-list {
   display: flex;
   width: 960px;
-  /* width: 100%; */
+  min-height: 431px;
   margin: 0 auto;
   border: #796b4396 solid 2px;
   border-radius: 10px;

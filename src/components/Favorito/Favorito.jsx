@@ -25,7 +25,7 @@ function Favorito() {
   return (
     <div className=" filme__favorito">
       <h1 className="filme__favorito-title">Filmes Favoritos</h1>
-      {filmes.length === 0 && <span>Voce não possui filme salvo :( </span>}
+      {filmes.length === 0 && <span>Você não possui filme salvo :( </span>}
       <div className="filme__container-list">
         <ul>
           {filmes.map((filme) => {

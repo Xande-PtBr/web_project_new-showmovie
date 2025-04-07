@@ -6,7 +6,7 @@
 .footer__copyright {
   justify-content: center;
   align-items: end;
-  margin: 200px auto 20px;
+  margin: 50px auto 20px;
 }
 
 @media screen and (max-width: 320px) {
