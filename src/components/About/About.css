@@ -13,7 +13,7 @@
 }
 
 .about__button-home {
-  margin: 0;
+  margin: 14px 0 0;
   padding: 0;
   border: none;
 }
@@ -48,6 +48,7 @@
 .about__container {
   display: flex;
   max-width: 620px;
+  min-height: 390px;
   text-align: justify;
   flex-direction: column;
   margin: 0 auto;
